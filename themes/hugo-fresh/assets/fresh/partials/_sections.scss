@@ -51,6 +51,10 @@ Section Styles
     &.is-centered {
         margin: 0 auto;
     }
+
+    &.light {
+        background: $light-grey;
+    }
 }
 
 //Wrapper

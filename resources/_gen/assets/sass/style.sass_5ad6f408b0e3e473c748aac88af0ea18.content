@@ -6358,6 +6358,8 @@ Section Styles
   width: 60px; }
   .divider.is-centered {
     margin: 0 auto; }
+  .divider.light {
+    background: #EFF4F7; }
 
 .content-wrapper {
   padding: 60px 0; }

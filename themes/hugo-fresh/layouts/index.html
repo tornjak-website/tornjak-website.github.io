@@ -21,10 +21,15 @@
     {{ partial "section5.html" . }}
     {{ end }}
 -->
+    {{ if .Site.Params.sectionUniid}}
+    {{ partial "section-uniid.html" . }}
+    {{ end }}
 
     {{ if .Site.Params.sectionGithub}}
     {{ partial "section-github.html" . }}
     {{ end }}
+
+    
 <!--
     {{ if .Site.Params.footer }}
     {{ partial "footer.html" . }}

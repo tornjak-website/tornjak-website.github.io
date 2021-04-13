@@ -29,7 +29,7 @@ params:
     # Main hero title
     title: Take control of your workloads
     # Hero subtitle (optional)
-    subtitle: Leverage tornjak and SPIFFE/SPIRE to create an organization wide multi-cloud workload identity based on Zero Trust.
+    subtitle: Leverage Tornjak and SPIFFE/SPIRE to establish organization wide workload identity management based on Zero Trust.
     # Button text
     button1text: Learn more
     button1link: "#about-tornjak"
@@ -37,7 +37,9 @@ params:
     button2link: "https://github.com/lumjjb/tornjak"
 
     # Hero image (from static/images/___)
-    image: illustrations/worker.svg
+    #image: illustrations/worker.svg
+    image: logos/tornjak.png
+
     # Footer logos (from static/images/logos/clients/___.svg)
     # clientlogos:
     # - systek
@@ -49,10 +51,8 @@ params:
   navbar:
   - title: FAQ
     url: /faq
-  - title: Unified Workload Identity
-    url: /unified-identity
   - title: Github
-    url: /
+    url: https://github.com/lumjjb/tornjak
     button: true
 
   # - title: Dropdown
@@ -116,22 +116,22 @@ params:
       text: Learn how to configure your existing SPIRE deployments to use Tornjak.
       url: /
       buttonText: Configure Tornjak
-    - title: Organization deployment
+    - title: Kubernetes Helm Deployments
       icon: plug-cloud
-      text: See what can Tornjak and SPIRE can do for you with an example of a full end-to-end architecture deployment.
-      url: /
+      text: See what can Tornjak and SPIRE can do for you with an example helm deployment on Kubernetes/OpenShift with all the bells and whistles.
+      url: /#unified-identity
       buttonText: Learn More
   section2:
     title: What is Tornjak?
-    subtitle: Tornjak is a workload identity management built on top of SPIFFE/SPIRE to provide control over workloads spanning multiple clouds and platforms
+    subtitle: Tornjak is a workload identity management plane built on top of SPIFFE/SPIRE to provide control over workloads spanning multiple clouds and platforms
     features:
     - title: Global Visibility and Management
       text: Treating your workloads like "cattle, not pets" doesn't mean that you lose sight of them... Manage and view your workload identities throughout your entire organization all in one place.
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
     - title: Zero Trust and Compliance
-      text: Tornjak uses SPIRE to provide a foundation of Zero Trust that organizations can leverage on, in addition to that, it provides a platform for policy, auditability and compliance for your organization's workload identities.
-      icon: mobile-feed
+      text: SPIRE provides a foundation of Zero Trust that organizations can leverage. Tornjak aims to provides a platform for policy, auditability and compliance for your organization's workload identities.
+      icon: plug-cloud
     - title: Based on Cloud Native Identity Standards
       text: Tornjak builds on top of the Cloud Native Computing Foundadtion (CNCF) [SPIFFE/SPIRE](https://spiffe.io) projects' standard and implementation. Workload identities can be exposed through commonly used identity connectors like OIDC through SPIRE.
       icon: doc-sync
@@ -141,9 +141,14 @@ params:
     title: What's next?
     subtitle: Learn more about Tornjak
     button1Text: Github
-    button1Link: "#"
+    button1Link: https://github.com/lumjjb/tornjak
     button2Text: FAQ
-    button2Link: "#"
+    button2Link: /faq
+  sectionUniid:
+    title: Tornjak + SPIRE on Kubernetes/OpenShift
+    subtitle: Explore a sample architecture of deploying Tornjak and SPIRE, utilizing features such as the SPIRE workload registrar to automatically register container workloads and a webhook to define an identity schema for the cluster. The "Trusted Service Identity" helm deployments showcase how this can be done.
+    buttonText: Check out Helm charts
+    buttonLink: "#"
   section4:
     title: Our Clients love us!
     subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
