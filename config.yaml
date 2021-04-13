@@ -109,18 +109,21 @@ params:
     - title: New to SPIRE
       icon: mouse-globe
       text: Spin up a sample deployment with our quickstart guide and start exploring Tornjak and SPIRE!
-      url: /
+      url: https://github.com/lumjjb/tornjak/blob/main/docs/spire-quickstart.md
       buttonText: Get Started
     - title: Existing SPIRE users
       icon: laptop-cloud
       text: Learn how to configure your existing SPIRE deployments to use Tornjak.
-      url: /
+      url: https://github.com/lumjjb/tornjak/blob/main/docs/spire-quickstart.md#step-2-configuring-tornjak
       buttonText: Configure Tornjak
     - title: Kubernetes Helm Deployments
       icon: plug-cloud
       text: See what can Tornjak and SPIRE can do for you with an example helm deployment on Kubernetes/OpenShift with all the bells and whistles.
       url: /#unified-identity
       buttonText: Learn More
+
+
+
   section2:
     title: What is Tornjak?
     subtitle: Tornjak is a workload identity management plane built on top of SPIFFE/SPIRE to provide control over workloads spanning multiple clouds and platforms
