@@ -47,23 +47,27 @@ params:
     # - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Features
-    url: /
-  - title: Pricing
-    url: /
-  - title: Dropdown
-    sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-  - title: Log in
-    url: /
-  - title: Sign up
+  - title: FAQ
+    url: /faq
+  - title: Unified Workload Identity
+    url: /unified-identity
+  - title: Github
     url: /
     button: true
+
+  # - title: Dropdown
+  #   sublinks:
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  # - title: Log in
+  #   url: /
+  # - title: Sign up
+  #   url: /
+  #   button: true
   #sidebar:
   #  # Logo (from /images/logos/___.svg)
   #  logo: fresh-square
@@ -122,7 +126,7 @@ params:
     subtitle: Tornjak is a workload identity management built on top of SPIFFE/SPIRE to provide control over workloads spanning multiple clouds and platforms
     features:
     - title: Global Visibility and Management
-      text: Manage and view your workload identities throughout your entire organization. 
+      text: Treating your workloads like "cattle, not pets" doesn't mean that you lose sight of them... Manage and view your workload identities throughout your entire organization all in one place.
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
     - title: Based on Cloud Native Identity Standards
