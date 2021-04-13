@@ -1,5 +1,6 @@
 baseURL: /
 languageCode: en-us
+publishDir: public/
 title: tornjak
 theme: hugo-fresh
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
