@@ -129,12 +129,13 @@ params:
       text: Treating your workloads like "cattle, not pets" doesn't mean that you lose sight of them... Manage and view your workload identities throughout your entire organization all in one place.
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
-    - title: Based on Cloud Native Identity Standards
-      text: Tornjak builds on top of the Cloud Native Computing Foundadtion (CNCF) [SPIFFE/SPIRE](https://spiffe.io) projects' standard and implementation. Workload identities can be exposed through commonly used identity connectors like OIDC through SPIRE.
-      icon: doc-sync
     - title: Zero Trust and Compliance
       text: Tornjak uses SPIRE to provide a foundation of Zero Trust that organizations can leverage on, in addition to that, it provides a platform for policy, auditability and compliance for your organization's workload identities.
       icon: mobile-feed
+    - title: Based on Cloud Native Identity Standards
+      text: Tornjak builds on top of the Cloud Native Computing Foundadtion (CNCF) [SPIFFE/SPIRE](https://spiffe.io) projects' standard and implementation. Workload identities can be exposed through commonly used identity connectors like OIDC through SPIRE.
+      icon: doc-sync
+
 
   sectionGithub:
     title: What's next?
