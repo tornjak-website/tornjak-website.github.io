@@ -3,7 +3,7 @@ languageCode: en-us
 publishDir: public/
 title: tornjak
 theme: hugo-fresh
-googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+googleAnalytics: G-B8BB2DJ3VW
 # Disables warnings
 disableKinds:
 - taxonomy
