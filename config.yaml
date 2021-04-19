@@ -151,7 +151,7 @@ params:
     title: Tornjak + SPIRE on Kubernetes/OpenShift
     subtitle: Explore a sample architecture of deploying Tornjak and SPIRE on Kubernetes and OpenShift, utilizing features such as the SPIRE workload registrar to automatically register container workloads and a webhook to define an identity schema for the cluster. The "Trusted Service Identity" helm deployments showcase how this can be done.
     buttonText: Check out Helm charts
-    buttonLink: "#"
+    buttonLink: "https://github.com/IBM/trusted-service-identity/tree/spire"
   section4:
     title: Our Clients love us!
     subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
