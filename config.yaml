@@ -20,7 +20,7 @@ params:
   description:
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/tornjak.png
+    image: logos/tornjak-logo.png
     link: /
   font:
     name: "Open Sans"
@@ -38,7 +38,8 @@ params:
 
     # Hero image (from static/images/___)
     #image: illustrations/worker.svg
-    image: logos/tornjak.png
+    image: logos/tornjak-logo-4-3.png
+
 
     # Footer logos (from static/images/logos/clients/___.svg)
     # clientlogos:

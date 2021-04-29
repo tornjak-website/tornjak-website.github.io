@@ -31,6 +31,9 @@ Cards and Card content styles
     }
     .card-action {
         margin-top: 10px;
+        .button {
+            background-color: $primary;
+        }
     }
     &.is-bordered {
         border: 1px solid $fade-grey;

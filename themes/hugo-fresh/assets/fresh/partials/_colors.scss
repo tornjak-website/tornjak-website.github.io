@@ -6,8 +6,15 @@ $white: #fff;
 $smoke-white: #fcfcfc;
 $grey-white: #f2f2f2;
 
-$primary: #4FC1EA;
-$secondary: #F39200;
+//$primary: #4FC1EA;
+//$secondary: #F39200;
+$spiffe-primary: #00beda;
+$spiffe-secondary: #beda00;
+$spiffe-tertiary: #595a5c;
+
+$primary: $spiffe-primary;
+$secondary: $spiffe-secondary;
+$tertiary: $spiffe-tertiary;
 $accent: #00efb7;
 
 $fade-grey: #ededed;
