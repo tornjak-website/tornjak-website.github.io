@@ -52,9 +52,12 @@ params:
   navbar:
   - title: FAQ
     url: /faq
+  - title: SPIFFE.io
+    url: https://spiffe.io
   - title: Github
     url: https://github.com/lumjjb/tornjak
     button: true
+
 
   # - title: Dropdown
   #   sublinks:
