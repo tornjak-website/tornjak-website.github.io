@@ -55,7 +55,7 @@ params:
   - title: SPIFFE.io
     url: https://spiffe.io
   - title: Github
-    url: https://github.com/lumjjb/tornjak
+    url: https://github.com/spiffe/tornjak
     button: true
 
 
@@ -113,12 +113,12 @@ params:
     - title: New to SPIRE
       icon: mouse-globe
       text: Spin up a sample deployment with our quickstart guide and start exploring Tornjak and SPIRE!
-      url: https://github.com/lumjjb/tornjak/blob/main/docs/spire-quickstart.md
+      url: https://github.com/spiffe/tornjak/blob/main/docs/spire-quickstart.md
       buttonText: Get Started
     - title: Existing SPIRE users
       icon: laptop-cloud
       text: Learn how to configure your existing SPIRE deployments to use Tornjak.
-      url: https://github.com/lumjjb/tornjak/blob/main/docs/spire-quickstart.md#step-2-configuring-tornjak
+      url: https://github.com/spiffe/tornjak/blob/main/docs/spire-quickstart.md#step-2-configuring-tornjak
       buttonText: Configure Tornjak
     - title: Kubernetes Helm Deployments
       icon: plug-cloud
@@ -148,7 +148,7 @@ params:
     title: What's next?
     subtitle: Learn more about Tornjak
     button1Text: Github
-    button1Link: https://github.com/lumjjb/tornjak
+    button1Link: https://github.com/spiffe/tornjak
     button2Text: FAQ
     button2Link: /faq
   sectionUniid:
